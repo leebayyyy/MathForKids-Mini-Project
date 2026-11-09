@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Math For Kids</title>
+<link rel="stylesheet" href="Appearance.css">
+</head>
+<body>
+
+<div class="app">
+  <h1>Math For Kids 📝</h1>
+
+  <div class="operations">
+    <button class="op-btn active" data-op = "+">ADD</button>
+    <button class="op-btn" data-op = "-">SUBTRACT</button>
+    <button class="op-btn" data-op = "×">MULTIPLY</button>
+    <button class="op-btn" data-op = "÷">DIVIDE</button>
+  </div>
+
+  <div class="problem-row">
+    <div class="num-box" id="num1">0</div>
+    <div id="opSign">+</div>
+    <div class="num-box" id="num2">0</div>
+    <div>=</div>
+    <input type="number" id="answerInput" placeholder="?">
+  </div>
+
+  <button id="generateBtn">GENERATE</button>
+  <button id="checkBtn">CHECK</button>
+
+
+  <div id="result"></div>
+  <div id="score">Score: 0 correct / 0 tried</div>
+</div>
+
+<script src="Function.js"></script>
+
+</body>
+</html>
